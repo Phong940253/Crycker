@@ -10,8 +10,8 @@ namespace Crycker.Data
     {
         public BinanceTickerProvider()
         {
-            supportedCurrencies = new string[] { "EUR", "USDT" };
-            supportedCoins = new string[] { "BNB"};
+            supportedCurrencies = new string[] { "EUR", "USDT", "BUSD" };
+            supportedCoins = new string[] { "BNB", "BTC"};
         }
 
         public string Provider

@@ -46,8 +46,13 @@
             this.currencyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eURToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uSDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bUSDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.refreshIntervalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.secToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.secToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.secToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.secToolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
             this.secToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -209,7 +214,8 @@
             // 
             this.currencyToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eURToolStripMenuItem,
-            this.uSDToolStripMenuItem});
+            this.uSDToolStripMenuItem,
+            this.bUSDToolStripMenuItem});
             this.currencyToolStripMenuItem.Name = "currencyToolStripMenuItem";
             this.currencyToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.currencyToolStripMenuItem.Text = "Cu&rrency";
@@ -230,6 +236,14 @@
             this.uSDToolStripMenuItem.Text = "USDT";
             this.uSDToolStripMenuItem.Click += new System.EventHandler(this.CurrencyClick);
             // 
+            // bUSDToolStripMenuItem
+            // 
+            this.bUSDToolStripMenuItem.Name = "bUSDToolStripMenuItem";
+            this.bUSDToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
+            this.bUSDToolStripMenuItem.Tag = "BUSD";
+            this.bUSDToolStripMenuItem.Text = "BUSD";
+            this.bUSDToolStripMenuItem.Click += new System.EventHandler(this.CurrencyClick);
+            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
@@ -238,6 +252,10 @@
             // refreshIntervalToolStripMenuItem
             // 
             this.refreshIntervalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.secToolStripMenuItem1,
+            this.secToolStripMenuItem2,
+            this.secToolStripMenuItem5,
+            this.secToolStripMenuItem10,
             this.secToolStripMenuItem,
             this.minToolStripMenuItem,
             this.minToolStripMenuItem1,
@@ -248,6 +266,38 @@
             this.refreshIntervalToolStripMenuItem.Name = "refreshIntervalToolStripMenuItem";
             this.refreshIntervalToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.refreshIntervalToolStripMenuItem.Text = "Refresh &Interval";
+            // 
+            // secToolStripMenuItem
+            // 
+            this.secToolStripMenuItem1.Name = "secToolStripMenuItem1";
+            this.secToolStripMenuItem1.Size = new System.Drawing.Size(110, 22);
+            this.secToolStripMenuItem1.Tag = "1";
+            this.secToolStripMenuItem1.Text = "1 sec";
+            this.secToolStripMenuItem1.Click += new System.EventHandler(this.RefreshIntervalClick);
+            // 
+            // secToolStripMenuItem
+            // 
+            this.secToolStripMenuItem2.Name = "secToolStripMenuItem2";
+            this.secToolStripMenuItem2.Size = new System.Drawing.Size(110, 22);
+            this.secToolStripMenuItem2.Tag = "2";
+            this.secToolStripMenuItem2.Text = "2 sec";
+            this.secToolStripMenuItem2.Click += new System.EventHandler(this.RefreshIntervalClick);
+            // 
+            // secToolStripMenuItem
+            // 
+            this.secToolStripMenuItem5.Name = "secToolStripMenuItem5";
+            this.secToolStripMenuItem5.Size = new System.Drawing.Size(110, 22);
+            this.secToolStripMenuItem5.Tag = "5";
+            this.secToolStripMenuItem5.Text = "5 sec";
+            this.secToolStripMenuItem5.Click += new System.EventHandler(this.RefreshIntervalClick);
+            // 
+            // secToolStripMenuItem
+            // 
+            this.secToolStripMenuItem10.Name = "secToolStripMenuItem10";
+            this.secToolStripMenuItem10.Size = new System.Drawing.Size(110, 22);
+            this.secToolStripMenuItem10.Tag = "10";
+            this.secToolStripMenuItem10.Text = "10 sec";
+            this.secToolStripMenuItem10.Click += new System.EventHandler(this.RefreshIntervalClick);
             // 
             // secToolStripMenuItem
             // 
@@ -455,6 +505,7 @@
         private System.Windows.Forms.ToolStripMenuItem currencyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eURToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uSDToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bUSDToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem coinToolStripMenuItem;
@@ -469,6 +520,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem autoRunToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem secToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem secToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem secToolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem secToolStripMenuItem10;
         private System.Windows.Forms.ToolStripMenuItem secToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem priceChangeNotificationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem _1perctToolStripMenuItem;
