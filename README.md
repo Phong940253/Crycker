@@ -1,5 +1,10 @@
 # CRYCKER
 
+![Maintenance](https://img.shields.io/maintenance/yes/2020?style=for-the-badge) <!--
+![GitHub Release Date](https://img.shields.io/github/release-date/davidvidmar/crycker?style=for-the-badge)
+--> ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/davidvidmar/crycker/total?style=for-the-badge)
+![GitHub Releases](https://img.shields.io/github/downloads/davidvidmar/Crycker/latest/total?style=for-the-badge)
+
 Hey, you people that are contantly checking Bitcoin and other crypto currency prices on mobile or PC during meetings. You think we don't see you? We do!
 
 Here is a gift for you!
@@ -17,7 +22,7 @@ Currently shows data from Bitstamp, Coinbase or Blockchain. Supports Bitcoin, Et
 
 ![Crycker Settings](https://vidmar.net/img/projects/crycker-menu.png)
 
-**Download**    - [Version 1.0.1](https://github.com/davidvidmar/Crycker/releases/latest)
+**Download**    - [Version 1.1](https://github.com/davidvidmar/Crycker/releases/latest)
 
 **Home Page** - [Source Code](https://vidmar.net/Cryker/)
 
@@ -27,8 +32,11 @@ Have an idea?  Found a bug? [Leave feedback](mailto:crycker@vidmar.net) or [subm
 
 ## Change log: ##
 
-**v1.0.1** - 7th Oct 2017 
+**v1.1** - 5th May 2020 
+* get notifications for x% change
+* fixes and optimisations
 
+**v1.0.1** - 7th Oct 2017 
 * check for updates automatically, can be turned off in config file
 * support for generic currencies, that can be set in config file
 * read config file from directory where executable is, not from current working directory
@@ -43,6 +51,6 @@ If you like Crycker, please donate!
 
 ![ETH donation address](https://vidmar.net/img/projects/donate-eth.png)
 
-**BTC** to "35aF5bLUa28AYEW22tVsRYbgEkBdyc9wzf" or use QR code:
+**BTC** to "38ArB8CxXf4tQ3qccXoNYXmdkRqMrEGcpN" or use QR code:
 
 ![BTC donation address](https://vidmar.net/img/projects/donate-btc.png)

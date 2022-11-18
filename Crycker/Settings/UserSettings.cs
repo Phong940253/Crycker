@@ -24,6 +24,12 @@ namespace Crycker.Settings
 
         [DefaultValue("Segoe UI")]
         public string FontName { get; set; }
+        [DefaultValue(7)]
+        public float FontSize { get; set; }
+        [DefaultValue(true)]
+        public bool FontStyleBold { get; set; }
+
+
         [DefaultValue(false)]
         public bool Log { get; set; }
         [DefaultValue(true)]
@@ -44,6 +50,9 @@ namespace Crycker.Settings
             DarkMode = true;
 
             FontName = "Segoe UI";
+            FontSize = 7;
+            FontStyleBold = true;
+
             Log = false;
             CheckForUpdates = true;
         }        
